@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleep Debt Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sleep Debt Calculator</h1>
+        <form id="sleepDebtCalcForm" onsubmit="return false;">
+            <label for="actual">What is your actual hours of sleep?</label>
+            <input type="text" id="actual" name="actual" required>
+            <label for="ideal">What is your ideal hours of sleep?</label>
+            <input type="text" name="ideal" id="ideal">
+            <button type="button" onclick="main()">Calculate</button>
+        </form>
+        <div id="results"></div>
+    </div>
+    <div id="results">
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
