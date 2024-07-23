@@ -1,7 +1,7 @@
 # Sleep Debt Calculator
 
-Did you know that giraffes sleep 4.6 hours a day? We humans need more than that. If we don’t sleep enough, we accumulate sleep debt. In this project we’ll calculate if you’re getting enough sleep each week using a sleep debt calculator.
+This project is a simple browser-based tool that calculates your sleep debt based on the actual and ideal hours of sleep. The tool is implemented in JavaScript and dynamically displays the results on a webpage.
 
-The program will determine the actual and ideal hours of sleep for each night of the last week.
+## Project Description
 
-Finally, it will calculate, in hours, how far you are from your weekly sleep goal.
+The Sleep Debt Calculator allows users to input their actual sleep hours for the week and their ideal daily sleep hours. The tool then calculates the total actual sleep hours, the total ideal sleep hours, and the sleep debt. It informs the user if they are getting the ideal amount of sleep, extra sleep, or if they are in a sleep deficit.
